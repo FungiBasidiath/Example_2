@@ -32,7 +32,7 @@ local framePos, frameSize = frame.Position, frame.Size
 
 
 
--- THERE IS A GUI TO CONTROL STANCE. This keeps track of the UI's size and position, since it is altered frequently when hovered over. 
+-- THERE IS A GUI TO CONTROL STANCE AND SWING DIRECTION. This keeps track of the UI's size and position, since it is altered frequently when hovered over. 
 local ListOfOrigins = {
 	["Top"] = { Position = topPos, Size = TopOrigin },
 	["Right"] = { Position = RightPos, Size = RightOrigin },
